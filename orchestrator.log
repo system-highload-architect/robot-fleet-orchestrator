@@ -1,0 +1,23 @@
+time=2026-07-06T20:56:12.669+03:00 level=INFO msg="Location created" id=loc-1783360572669333700-b8h6r0 name="Main Warehouse"
+time=2026-07-06T20:56:12.701+03:00 level=INFO msg="Orchestrator started" port=8080
+time=2026-07-06T20:56:19.877+03:00 level=INFO msg="Robot status updated" id=robot-3 old=idle new=offline
+time=2026-07-06T20:56:19.881+03:00 level=INFO msg="Robot status updated" id=robot-1 old=idle new=idle
+time=2026-07-06T20:56:19.881+03:00 level=INFO msg="Robot status updated" id=robot-2 old=idle new=idle
+time=2026-07-06T20:56:24.884+03:00 level=INFO msg="Task created" id=task-1783360584884863600-m2jwm1
+time=2026-07-06T20:56:24.885+03:00 level=INFO msg="Robot status updated" id=robot-3 old=offline new=charging
+time=2026-07-06T20:56:24.885+03:00 level=INFO msg="Task assigned" task_id=task-1783360584884863600-m2jwm1 robot_id=robot-1
+time=2026-07-06T20:56:24.885+03:00 level=INFO msg="Robot status updated" id=robot-1 old=idle new=offline
+time=2026-07-06T20:56:24.885+03:00 level=INFO msg="Robot status updated" id=robot-2 old=idle new=charging
+time=2026-07-06T20:56:29.878+03:00 level=INFO msg="Robot status updated" id=robot-2 old=charging new=idle
+time=2026-07-06T20:56:29.878+03:00 level=INFO msg="Robot status updated" id=robot-1 old=offline new=offline
+time=2026-07-06T20:56:29.878+03:00 level=INFO msg="Robot status updated" id=robot-3 old=charging new=busy
+time=2026-07-06T20:56:34.883+03:00 level=INFO msg="Task created" id=task-1783360594883098000-8yueaz
+time=2026-07-06T20:56:34.883+03:00 level=INFO msg="Robot status updated" id=robot-1 old=offline new=idle
+time=2026-07-06T20:56:34.883+03:00 level=INFO msg="Robot status updated" id=robot-2 old=idle new=busy
+time=2026-07-06T20:56:34.883+03:00 level=INFO msg="Task assigned" task_id=task-1783360594883098000-8yueaz robot_id=robot-1
+time=2026-07-06T20:56:34.883+03:00 level=INFO msg="Robot status updated" id=robot-3 old=busy new=offline
+time=2026-07-06T20:56:35.031+03:00 level=INFO msg="Shutting down gracefully..."
+time=2026-07-06T20:56:35.031+03:00 level=INFO msg="Shutting down analytics service..."
+time=2026-07-06T20:56:35.031+03:00 level=INFO msg="Persist loop stopped"
+time=2026-07-06T20:56:35.031+03:00 level=INFO msg="Analytics service stopped"
+time=2026-07-06T20:56:35.032+03:00 level=INFO msg="Orchestrator stopped"

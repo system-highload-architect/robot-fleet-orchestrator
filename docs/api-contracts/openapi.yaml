@@ -1,0 +1,60 @@
+openapi: 3.0.0
+info:
+  title: Robot Fleet Orchestrator API
+  version: 1.0.0
+paths:
+  /tasks:
+    post:
+      summary: Создать задачу
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                type:
+                  type: string
+                priority:
+                  type: integer
+                location_to:
+                  type: string
+      responses:
+        '201':
+          description: Задача создана
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Task'
+  /robots:
+    get:
+      summary: Получить список роботов
+      responses:
+        '200':
+          description: Список роботов
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Robot'
+components:
+  schemas:
+    Robot:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        status:
+          type: string
+    Task:
+      type: object
+      properties:
+        id:
+          type: string
+        type:
+          type: string
+        status:
+          type: string
